@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<title>criar evento</title>
+</head>
+<body>
+<div class="container-fluid" id="myFormulario">
+	<div class="row">
+			<h3>Criar Evento</h3>
+			<form data-toggle="validator" role="form" id="formulario">
+				<div class="form-group">
+					<label for="textLocal" class="control-label">Local do Evento</label>		
+					<input type="text" class="form-control" id="local" placeholder="Local do evento...">
+				</div>
+				<div class="form-group">
+					<label for="textData" class="control-label">Data do evento</label>
+					<input type="Date" class="form-control" id="data" placeholder="">
+				</div>
+				<div class="form-group">
+					<label for="Horario" class="control-label">Horario do evento</label>
+					<input type="text" class="form-control" id="hora" placeholder="hh:mm:ss" size="">
+				</div>
+				<div class="form-group">
+					<label for="confirmar"><input type="checkbox" value="">Confirmar criação do evento</label>
+				</div>
+			</form>
+			<button type="button" class="btn btn-default" id="botao">Criar</button>
+	</div>
+</div>	
+</body></html>
